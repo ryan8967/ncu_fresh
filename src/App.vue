@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FlipBook/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import FlipBook from './components/flipBook.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FlipBook
   }
 }
 </script>
